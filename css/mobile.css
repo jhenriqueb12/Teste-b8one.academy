@@ -1,0 +1,87 @@
+/* Header */
+
+.ecommerce {
+  width: 100%;
+  height: 56px;
+}
+
+.ecommerce-container {
+  position: relative;
+  height: 100%;
+  margin-right: 24px;
+}
+
+.logo {
+  transform: translateX(-60%) translatey(20%);
+  margin-left: 16px;
+
+}
+
+.logo-b8one {
+  height: 28px;
+}
+
+.search-icon {
+  display: none;
+}
+
+.search-icon-1 {
+  position: absolute;
+  background: transparent;
+  height: 24px;
+  right: 10px;
+  padding-right: 12px;
+  transform: translateY(-45%);
+  top: 50%;
+  cursor: pointer;
+}
+
+.number-product {
+  position: absolute;
+  height: 20px;
+  top: 16%;
+  transform: translateX(75%);
+}
+
+.number {
+  max-width: 5px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;  
+  transform: translateX(285%) translateY(-65%);
+}
+
+.search-input {
+  display: none;
+}
+
+.user {
+  display: none;
+}
+
+/* Menu navbar */
+
+.navbar {
+  width: 100%;
+  height: 40px;
+}
+
+/* Subnavbar */
+
+.sub-navbar {
+  width: 100%;
+  height: 40px;
+}
+
+.chevron, .pages-list:nth-child(n + 2) {
+  display: none;
+}
+
+/* Product */
+
+.product {
+  width: 100%;
+  height: 1136px;
+  margin: 16px 16px 16px 32px;
+}
